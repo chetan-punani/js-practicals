@@ -1,0 +1,49 @@
+h1 {
+  color: rgb(69, 14, 235);
+  font-size: 45px;
+}
+
+#frfcb,
+#frscb,
+#frtcb,
+#srfcb,
+#srscb,
+#srtcb,
+#trfcb,
+#trscb,
+#trtcb {
+  width: 80px;
+  height: 52px;
+  margin: auto;
+  border: 1px solid gray;
+  border-radius: 6px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#but {
+  box-sizing: border-box;
+  width: 95px;
+  height: 40px;
+  border: 1px solid dodgerblue;
+  margin: auto;
+  border-radius: 4px;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#print {
+  color: dodgerblue;
+  font-size: 20px;
+}
+
+#main {
+  text-align: center;
+}
+
+#heading {
+  color: dodgerblue;
+  font-size: 17px;
+}

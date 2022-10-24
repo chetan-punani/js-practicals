@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="6.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <h1>TIC TAC TOE</h1>
+
+        <p id="heading">Game starts by just Tap on
+            box<br><br>First Player as ->
+            <b>X</b><br>And<br>Second
+            Player as -> <b>0</b>
+        </p>
+        
+        <br><br>
+        <input type="text" id="frfcb" onclick="first_Row_first_column_box(); funTicTacToe();" readonly>
+
+        <input type="text" id="frscb" onclick="first_Row_second_column_box(); funTicTacToe();" readonly>
+
+        <input type="text" id="frtcb" onclick="first_Row_third_column_box(); funTicTacToe();" readonly>
+        <br><br>
+
+        <input type="text" id="srfcb" onclick="second_Row_first_column_box(); funTicTacToe();" readonly>
+
+        <input type="text" id="srscb" onclick="second_Row_second_column_box(); funTicTacToe();" readonly>
+
+        <input type="text" id="srtcb" onclick="second_Row_third_column_box(); funTicTacToe();" readonly>
+        <br><br>
+
+        <input type="text" id="trfcb" onclick="third_Row_first_column_box(); funTicTacToe();" readonly>
+
+        <input type="text" id="trscb" onclick="third_Row_second_column_box(); funTicTacToe();" readonly>
+
+        <input type="text" id="trtcb" onclick="third_Row_third_column_box(); funTicTacToe();" readonly>
+
+        <br><br><br>
+  
+        <button id="but" onclick="reset()">
+            RESET
+        </button>
+
+        <br><br>
+     
+        <p id="print"></p>
+
+
+
+
+    </div>
+</body>
+
+</html>
